@@ -1,6 +1,6 @@
 'use strict';
 module.exports = {
-  get db() {
-    return 456;
+  get db () {
+    return this.mysql;
   },
 };
